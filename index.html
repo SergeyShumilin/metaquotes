@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="left">
+        <button class="type-btn active" data-type="temperature">
+          Температура
+        </button>
+        <button class="type-btn" data-type="precipitation">Осадки</button>
+      </div>
+      <div class="right">
+        <div class="right-top">
+          <select id="from-select"></select>
+          <select id="to-select"></select>
+        </div>
+        <canvas id="canvas" height="400" width="650"></canvas>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

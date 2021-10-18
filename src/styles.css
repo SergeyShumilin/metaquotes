@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  display: flex;
+}
+
+.type-btn {
+  width: 100px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.type-btn.active {
+  background: green;
+  color: white;
+}
+
+#app .left {
+  padding: 5px;
+  width: 110px;
+}
+
+canvas {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+#app .right .right-top {
+  display: flex;
+  margin: 5px 0 10px;
+}
+
+#app .right .right-top select {
+  flex: 1;
+}
